@@ -14,6 +14,7 @@
 ### Day 2
 
 + Flags learnt (-p = port, -it = interactive mode)
++ dockerignore file
 + run container named 'node-app' from custom built image named 'node-app-image'  
 ```bash
     docker run -p localhost-port:docker-app-port -d --name name-of-the-container name-of-the-image
