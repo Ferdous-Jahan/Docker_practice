@@ -10,6 +10,6 @@
 
 ### Day 2
 
-+ docker run -p ${localhost_port}:${docker_app_port} -d --name ${name_of_the_container} ${name_of_the_image}
++ docker run -p ${localhost-port}:${docker-app-port} -d --name ${name-of-the-container} ${name-of-the-image}
 
 ex : docker run -p 3000:3000 -d --name node-app node-app-image
