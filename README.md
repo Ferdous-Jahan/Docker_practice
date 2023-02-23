@@ -25,3 +25,8 @@
 ```bash
     docker exec -it node-app bash
 ```
++ create a volume of binding with current folder to docker WORKDIR to update docker image when anything changes in local folder
+```bash
+    docker run -v ${pwd}:/app -p 3000:3000 -d --name  node-app node-app-image
+```
+This "${pwd}" for windows powershell. "$(pwd)" for UNIX
