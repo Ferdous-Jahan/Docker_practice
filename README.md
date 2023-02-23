@@ -30,4 +30,6 @@
     docker run -v ${pwd}:/app -p 3000:3000 -d --name  node-app node-app-image
 ```
 "${pwd}" for windows powershell
-\n"$(pwd)" for UNIX
+
+
+"$(pwd)" for UNIX
