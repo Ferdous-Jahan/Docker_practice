@@ -29,4 +29,5 @@
 ```bash
     docker run -v ${pwd}:/app -p 3000:3000 -d --name  node-app node-app-image
 ```
-This "${pwd}" for windows powershell. "$(pwd)" for UNIX
+"${pwd}" for windows powershell.
+"$(pwd)" for UNIX
