@@ -12,10 +12,11 @@
 
 + Flags learnt (-p = port, -it = interactive mode)
 + run container named 'node-app' from custom built image named 'node-app-image'  
-cmd : docker run -p {localhost-port}:{docker-app-port} -d --name {name-of-the-container} {name-of-the-image}
-ex : 
+pseudo command : docker run -p {localhost-port}:{docker-app-port} -d --name {name-of-the-container} {name-of-the-image}
 ```bash
     docker run -p 3000:3000 -d --name node-app node-app-image
 ```
 + get inside docker bash
-cmd : docker exec -it node-app bash
+```bash
+    docker exec -it node-app bash
+```
