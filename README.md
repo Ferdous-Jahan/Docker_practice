@@ -5,7 +5,10 @@
 + basic docker commands (build, run, rm)
 + some flags to go with the command (-t, -d = detached mode, -f = force, --name)
 + created Dockerfile
-+ created first custom docker image on top of node 16
++ build first custom docker image on top of node 16
+```bash
+    docker build .
+```
 
 
 ### Day 2
